@@ -1,38 +1,13 @@
-!!! 5
+-# coding: UTF-8
+!!! 5 UTF-8
 %html
   %head
     %title Haters Manifesto
-    :css
-      body {
-        font-size: 12pt;
-        color: black;
-        background-color: white;
-        width: 50%;
-        padding: 0;
-        margin: 0 auto 0 auto;
-        font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
-      }
-      h1, strong {
-        color: #444;
-      }
-      h1 {
-        font-family: "Trebuchet MS", Helvetica, sans-serif;
-        font-size: 4em;
-        padding: 0;
-        margin: 2em 0 1em 0;
-      }
-      li {
-        padding: 0;
-        margin-bottom: 1em;
-      }
-      * {
-        line-height: 150%;
-      }
-
+    %link{:rel => :stylesheet, :href => 'style.css', :type => 'text/css'}
   %body
     :markdown
-      Haters Manifesto
-      ================
+      Hate Driven Manifesto
+      =====================
 
       1. **Hatters gonna hate.**  
         The collective rage against crap software is unstoppable.
@@ -43,3 +18,12 @@
         Tonight, probably. During sex.
       4. **Happiness comes from inaction, delusion, or both.**  
         If you're doing it right, you resent all of it.
+
+    .signatures
+      :markdown
+        - [Pierre Carrier](pierre@gcarrier.fr)
+        - [Daniel Lundin](dln@eintr.org)
+
+      .join
+        :markdown
+          Want to sign? Create a pull request [on github](https://github.com/hatedriven/manifesto/blob/gh-pages/index.haml').

@@ -1,0 +1,42 @@
+li {
+  line-height: 150%;
+  padding: 0;
+  margin-bottom: 1em;
+}
+body {
+  font-size: 12pt;
+  color: black;
+  background-color: #ffffdd;
+  width: 50%;
+  padding: 0;
+  margin: 0 auto 0 auto;
+  font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+h1, strong {
+  color: #444;
+  text-shadow: 1px 1px #dda;
+}
+strong {
+  font-size: 1.2em;
+}
+h1 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 4em;
+  padding: 0;
+  margin: 2em 0 1em 0;
+}
+.signatures {
+  ul {
+    text-align: right;
+    margin-top: 2em;
+    padding-left: 50%;
+  }
+  li {
+    display: inline;
+  }
+}
+.join {
+  padding: 0;
+  margin: 1em 0 0 0;
+  text-align: right;
+}
