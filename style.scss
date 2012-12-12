@@ -1,3 +1,7 @@
+html, div, p, li {
+  margin: 0;
+  padding: 0;
+}
 body {
   font-size: 12pt;
   color: black;
@@ -20,14 +24,12 @@ h1 {
 }
 li {
   line-height: 150%;
-  margin: 0;
-  padding: 0;
   margin-bottom: 1em;
 }
 .signatures {
   ul {
     text-align: right;
-    margin-top: 2em;
+    margin: 2em 0 2em 0;
     padding-left: 50%;
   }
   li {
