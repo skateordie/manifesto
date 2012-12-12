@@ -12,6 +12,9 @@ body {
   margin: 0 auto 0 auto;
   font-family: "Palatino Linotype", Palatino, serif;
 }
+ol {
+  list-style-type: upper-roman;
+}
 h1, strong {
   color: #444;
   text-shadow: 1px 1px #dda;
