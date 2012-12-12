@@ -1,7 +1,8 @@
 $imp: #334;
 $fg: $imp / 2;
 $bg: #ffd;
-$shadow: mix($imp, $bg, .5);
+$shadow: mix($imp, $bg, 50%);
+$titlesep: mix($imp, $bg, 20%);
 
 html, div, p, li {
   margin: 0;
@@ -37,7 +38,7 @@ h1 {
   font-size: 2em;
   padding: 0 0 .1em 0;
   margin: 2em 0 1em 0;
-  border-bottom: 1px solid .8*$bg;
+  border-bottom: 1px solid $titlesep;
 }
 
 li {
@@ -63,12 +64,14 @@ li {
 }
 
 .join {
+  font-style: italic;
   padding: 0;
   margin: 1em 0 0 0;
   text-align: right;
+  color: $shadow;
 }
 
 a {
-  color: $fg;
+  color: inherit;
   text-decoration: underline;
 }
