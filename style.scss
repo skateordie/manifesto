@@ -1,6 +1,7 @@
-$imp: #334;
-$fg: $imp / 2;
+$imp: #900;
+$fg: #555;
 $bg: #ffd;
+$light: mix($fg, $bg, 80%);
 $shadow: mix($imp, $bg, 50%);
 $titlesep: mix($imp, $bg, 20%);
 
@@ -68,7 +69,7 @@ li {
   padding: 0;
   margin: 1em 0 0 0;
   text-align: right;
-  color: $shadow;
+  color: $light;
 }
 
 a {
