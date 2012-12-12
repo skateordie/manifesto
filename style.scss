@@ -1,12 +1,16 @@
+$imp: #334;
+$fg: $imp / 2;
 $bg: #ffd;
+$shadow: mix($imp, $bg, .5);
 
 html, div, p, li {
   margin: 0;
   padding: 0;
 }
+
 body {
   font-size: 12pt;
-  color: black;
+  color: $fg;
   background-color: $bg;
   width: 70%;
   max-width: 60em;
@@ -14,25 +18,33 @@ body {
   margin: 0 auto 0 auto;
   font-family: "Palatino Linotype", Palatino, serif;
 }
+
 ol {
   list-style-type: upper-roman;
 }
-h1, strong {
-  color: #444;
+
+strong {
+  color: $imp;
   text-shadow: 1px 1px #dda;
+  font-weight: bold;
 }
+
 h1 {
+  color: $imp;
+  text-shadow: 2px 2px #dda;
   text-align: center;
   font-family: Helvetica, Verdana, sans-serif;
   font-size: 2em;
   padding: 0 0 .1em 0;
   margin: 2em 0 1em 0;
-  border-bottom: 1px solid $bg * 0.8;
+  border-bottom: 1px solid .8*$bg;
 }
+
 li {
   line-height: 150%;
   margin-bottom: 1em;
 }
+
 .signatures {
   ul {
     text-align: right;
@@ -49,12 +61,14 @@ li {
     content: none;
   }
 }
+
 .join {
   padding: 0;
   margin: 1em 0 0 0;
   text-align: right;
 }
+
 a {
-  color: black;
+  color: $fg;
   text-decoration: underline;
 }
